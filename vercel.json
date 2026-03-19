@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "grab", "destination": "grab.js" }
+    { "source": "/api/grab", "destination": "/api/grab.js" }
   ]
 }
