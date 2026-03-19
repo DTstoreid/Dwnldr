@@ -80,7 +80,7 @@
 
             try {
                 // PANGGIL API SERVERLESS KITA
-                const response = await fetch(`/api/grab?url=${encodeURIComponent(url)}`);
+                const response = await fetch(`grab?url=${encodeURIComponent(url)}`);
                 const data = await response.json();
 
                 if (data.success) {
